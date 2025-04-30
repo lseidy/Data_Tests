@@ -1,0 +1,26 @@
+# Ignora arquivos Python compilados
+__pycache__/
+*.py[cod]
+
+# Ignora ambientes virtuais
+venv/
+.env/
+
+# Ignora arquivos temporários
+*.log
+*.tmp
+
+# Ignora arquivos de configuração locais
+*.swp
+.DS_Store
+*.idea/
+.vscode/
+
+# Ignora checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Ignora arquivos de saída
+output/
+*.pth
+*.pt
+*.png
